@@ -11,7 +11,7 @@ setuptools.setup(
     description="",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/sebrut/pygrocy",
+    url="https://github.com/k-chaney/pygrocy2",
     license="MIT",
     packages=setuptools.find_packages(),
     install_requires=[

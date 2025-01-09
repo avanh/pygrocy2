@@ -57,6 +57,7 @@ class Chore(DataModel):
 
         self._period_config = chore_data.period_config
         self._period_days = chore_data.period_days
+        self._period_interval = chore_data.period_interval
         self._track_date_only = chore_data.track_date_only
         self._rollover = chore_data.rollover
 
@@ -112,6 +113,10 @@ class Chore(DataModel):
     @property
     def period_days(self) -> int:
         return self._period_days
+
+    @property
+    def period_interval(self) -> int:
+        return self._period_interval
 
     @property
     def track_date_only(self) -> bool:
